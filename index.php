@@ -4,27 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        .calculator {
-            width: 400px;
-            margin: 50px auto;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            text-align: center;
-        }
-        .calculator input[type="number"] {
-            width: calc(100% - 20px);
-            margin-bottom: 10px;
-            padding: 10px;
-            font-size: 1.2em;
-        }
-        .calculator button {
-            width: 22%;
-            margin: 1%;
-            padding: 10px;
-            font-size: 1em;
-        }
+      
     </style>
 </head>
 <body>
