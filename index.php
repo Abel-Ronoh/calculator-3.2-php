@@ -20,15 +20,15 @@
                 <button type="submit" name="operation" value="subtract">-</button>
                 <button type="submit" name="operation" value="multiply">*</button>
                 <button type="submit" name="operation" value="divide">/</button>
-                <button type="submit" name="operation" value="exponent">^</button>
+                <button type="submit" name="operation" value="exponent">power</button>
                 <button type="submit" name="operation" value="percentage">%</button>
-                <button type="submit" name="operation" value="sqrt">√</button>
+                <button type="submit" name="operation" value="sqrt">root</button>
                 <button type="submit" name="operation" value="log">log</button>
             </div>
         </form>
         <?php
         function calculatePercentage($input1, $input2) {
-            return ($input1 / 100) * $input2;
+            return ($input1 / 100) ;
         }
 
         function calculateSquareRoot($input) {
